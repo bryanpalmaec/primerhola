@@ -6,19 +6,74 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Primer Hola</h1>
+    <!-- Encabezados -->
+    <h1 style="background-color: darkslategrey;" >Primer Hola</h1>
     <h2>Hola</h2>
     <h3>Hola2</h3>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
     Ducimus dicta eveniet inventore reiciendis in quo esse quaerat <br>
     cum officia doloremque, obcaecati earum nihil quis, magnam mollitia <br>
     provident? Itaque, veritatis laborum? <br>
+    <!-- Parrafo -->
     <p>
         Lorem ipsum dolor sit  <strong>amet</strong> consectetur, adipisicing elit. 
         Eos quisquam consequuntur adipisci repudiandae, quis reprehenderit 
         praesentium sit tempora nam modi? Possimus animi eligendi perspiciatis 
         cupiditate repudiandae voluptas quaerat voluptatem inventore?
     </p>
-    <a href="https://www.youtube.com/watch?v=WRz2MxhAdJo" target="_blank">Video</a>
+    <!-- Etiqueta de direccionamiento  -->
+    <a style="background-color: darkslategrey;" href="https://www.youtube.com/watch?v=WRz2MxhAdJo" target="_blank">Video</a>
+
+    <!-- Tabla -->
+    <table border="1">
+        <tr> <!-- Fila (table row) -->
+            <th>Numero</th> <!-- Celda de encabezado (table header) -->
+            <th>Pais</th>
+            <th>Poblacion</th>
+            <th colspan="2">Nombre</th>
+        </tr>
+        <tr>
+            <td>1</td> <!-- Celda de datos (table data) -->
+            <td>Ecuador</td>
+            <td>18 mill</td>
+            <td>Bryan</td>
+            <td>Palma</td>
+        </tr>
+    </table>
+    <!-- Imagen -->
+    <img src="imagenes/HTML5_logo_and_wordmark.svg.png" alt="Logo_HTML_5" width="100px" height="100px">
+    <br>
+    <img src="imagenes/avatar2.avif" alt="Avatar2" width="100px" height="100px" style="border-radius: 20%;">
+    <br>
+    <a href="paginas/contacto.html">Ir a contactame</a>
+    <br>
+    <a href="paginas/otraspaginas/nosotros.html">Ir a nosotros</a>
+    <br>
+    <!-- Lista no ordenada -->
+    <h2>Paises del latinoamerica</h2>
+    <ul>
+        <li>Ecuador</li>
+        <li>Colombia</li>
+    </ul>
+    <!-- Lista ordenada -->
+    <h2>Lista ordenada de posiciones</h2>
+    <ol>
+        <li>Argentina</li>
+        <li>Ecuador</li>
+        <li>Uruguay</li>
+    </ol>
+
+    <section>
+        <div style="text-align: center;">
+            <h2>Formulario</h2>
+        </div>
+         <!-- Lista ordenada -->
+        <div>
+            <form action="">
+                <label for="">Ingrese el nombre</label>
+                <input type="text" name="" id="" placeholder="Ingrese su nombre" required>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
